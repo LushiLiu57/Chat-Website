@@ -15,8 +15,8 @@ app.use(cors());
 app.use(express.json());
 
 
-server.listen("3001", ()=> {
-    console.log("Running on 3001");
+server.listen("3100", ()=> {
+    console.log("Running on 3100");
 });
 
 io.on("connection", (socket) => {
